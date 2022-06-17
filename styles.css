@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     display: flex;
     justify-content: center;
@@ -15,6 +16,27 @@ body {
     
 }
 
+header .nav {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+
+header a:link {
+  color: green;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header a:visited {
+  color: green;
+}
+
+header a:hover {
+  color: blue;
+}
 
 .sedans {
     background: hsl(31, 77%, 52%);
