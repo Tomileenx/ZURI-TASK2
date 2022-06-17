@@ -8,6 +8,23 @@ body {
     background: black;
 }
 
+
+header {
+    margin-top: 30px;
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
 #content {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
