@@ -5,37 +5,33 @@
 }
 
 
-body {
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+header {
+    margin-top: 30px;
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 50%;
-    margin: 0 auto;
-    background-color: hsl(0, 0%, 95%);
-    
-}
-
-header .nav {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-} 
-
-header a:link {
-  color: green;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-header a:visited {
-  color: green;
-}
-
-header a:hover {
-  color: blue;
+    margin: 0 auto;    
 }
 
 .sedans {
